@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Pharmacy_Name"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="73dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Pharmacy_Address"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Pharmacy_Name"
+            android:layout_alignLeft="@+id/Pharmacy_Name"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="41dp"
+            android:textStyle="italic" />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="141dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/Pharmacy_Details"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_corners_directions"
+            android:text="@string/directions" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="139dp"
+            android:layout_height="29dp"
+            android:layout_below="@+id/Pharmacy_Details"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+
+            android:layout_marginStart="34dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_toStartOf="@+id/button2"
+            android:layout_toLeftOf="@+id/button2"
+            android:background="@drawable/round_corners"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="0dp"
+            android:text="Call" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="87dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/button2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-15dp"
+            android:layout_marginTop="-15dp"
+            android:layout_marginBottom="-28dp"
+            app:srcCompat="@drawable/farmakeio" />
+
+        <TextView
+            android:id="@+id/Pharmacy_Details"
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Pharmacy_Address"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="1dp"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

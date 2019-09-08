@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Φαρμακεία </string>
+    <string name="todo">TODO</string>
+    <string name="directions">Directions</string>
+    <string name="make_a_call">Make a call</string>
+    <string name="title_activity_all_pharmacies">AllPharmacies</string>
+    <string name="e">Eφημερευοντα Φαρμακεια</string>
+    <string name="farmakeia_patra">Φαρμακεια Πατρα</string>
+    <string name="Loading_title">Φαρμακεία</string>
+    <string name="Loading_message">Loading...</string>
+</resources>

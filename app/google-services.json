@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "459258444536",
+    "firebase_url": "https://farmakeia-df422.firebaseio.com",
+    "project_id": "farmakeia-df422",
+    "storage_bucket": "farmakeia-df422.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459258444536:android:f5e79c14a4ab4eae",
+        "android_client_info": {
+          "package_name": "com.example.spyros.farmakeia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459258444536-se369hc67o9g9d2r3qb65bqiguqrdvr0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spyros.farmakeia",
+            "certificate_hash": "0ee4e17c2957a3da47bc7792cb505bf04419cb16"
+          }
+        },
+        {
+          "client_id": "459258444536-km2v09kut6vknchtvi65be0sqt9pg7o8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArUm0bi08EDLW3hkH6YO3YurHcO7Yq6eM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459258444536-km2v09kut6vknchtvi65be0sqt9pg7o8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
